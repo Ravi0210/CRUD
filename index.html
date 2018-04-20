@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Garage menu</h1>
+<aside>
+    <h2>klant</h2>
+</aside>
+<footer>
+    <button id="button1" onclick="punt()">klik</button>
+<nav class="nav">
+<ul>
+    <li><a href="create-klant.html">create</a></li>
+    <li><a href="read-klant.php">read</a></li>
+    <li><a href="search-klant.php">klant zoeken</a></li>
+    <li><a href="update-klant.html">update</a></li>
+    <li><a href="delete-klant.html">delete</a></li>
+    <li><a href="klant-auto.php">autoklant</a></li>
+</ul>
+</nav>
+    <h2>auto</h2>
+<nav>
+<ul>
+    <li><a href="create-auto.html">create</a></li>
+    <li><a href="read-auto.php">read</a></li>
+    <li><a href="search-auto.php">auto zoeken</a></li>
+    <li><a href="update-auto.html">update</a></li>
+    <li><a href="delete-auto.html">delete</a></li>
+</ul>
+</nav>
+</footer>
+<script>
+    function punt() {
+        alert("1/2 punt voor javascript :D?????¿¿ ik heb een button gemaakt die zich zelf styled :D");
+        document.getElementById("button1").style.backgroundColor = "white";
+        document.getElementById("button1").style.border = "1px solid black";
+        document.getElementById("button1").style.padding = "1.2vh 1.8vh";
+        document.getElementById("button1").style.marginLeft = "7.25vh";
+        document.getElementById("button1").style.marginBottom = "1.2vh";
+        }
+</script>
+</body>
+</html>

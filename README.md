@@ -1,2 +1,2 @@
 # garage
-garage opdracht overtypen
+garage opdracht CRUD(Create, Read, Update en Delete)
